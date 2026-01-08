@@ -25,7 +25,11 @@ Proyecto de análisis de datos que estudia la relación entre el uso de redes so
 - Relación entre tiempo de uso y niveles de estrés/ansiedad no es contundente. Si en cambio afecta a la productividad.
 
 ## 🚀 Conclusiones
-Las redes sociales muestran una influencia significativa en determinados aspectos de la salud mental, especialmente cuando el uso es intensivo.
+Los dos modelos de Random Forest ofrecen resultados coherentes con el planteamiento del proyecto. El primer modelo, que trabaja con los valores originales de estrés, presenta un rendimiento cercano al 50 %, similar a una predicción aleatoria, lo que refleja la complejidad del fenómeno analizado y la ausencia de relaciones claras entre las variables.
+
+El segundo modelo, basado en la binarización de estrés y productividad (alto/bajo), simplifica el problema y permite identificar patrones más definidos, elevando la precisión hasta aproximadamente el 80 %. No obstante, esta mejora se produce a costa de una mayor simplificación de los datos.
+
+En conjunto, los resultados evidencian el equilibrio entre mejorar la capacidad predictiva del modelo y mantener la fidelidad a la naturaleza original de los datos, destacando la importancia de una correcta formulación del problema en proyectos de análisis y machine learning.
 
 ---
 Proyecto realizado como trabajo final del Bootcamp de Data Analytics.
